@@ -2,7 +2,8 @@
 
 int main()
 {
-	int i1, i2;
+	
+    int i1, i2;
     float f1, f2;
     
     scanf("%d %d",&i1, &i2);
