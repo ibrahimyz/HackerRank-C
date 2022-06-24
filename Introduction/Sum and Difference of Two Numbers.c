@@ -2,7 +2,6 @@
 
 int main()
 {
-	
     int i1, i2;
     float f1, f2;
     
