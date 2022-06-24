@@ -15,6 +15,7 @@ int main()
     for(int i = num-1; 0 <= i; i--) {
         printf("%d ",*(arr + i));
     }
-        
+     
+    free(arr);
     return 0;
 }
