@@ -15,5 +15,7 @@ int main() {
         else
             printf("%c",*(s+i));
     }
+    
+    free(s);
     return 0;
 }
