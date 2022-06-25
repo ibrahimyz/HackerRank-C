@@ -15,7 +15,7 @@ int main() {
     
     for (int i=0; *(s+i)!='\0'; i++) {
         if (*(s+i)>='0' && *(s+i)<='9')    // *(s+i) is digit or not?
-            (*(arr+(*(s+i)-'0')))++;       // eg *(arr+0)++ if *(s+i) == 0 {look at the ASCII table}
+            (*(arr+(*(s+i)-'0')))++;       // eg if *(s+i) == 0, *(arr+0)++  {check out the ASCII table}
     }
 
     for (int i=0; i<10; i++) { printf("%d ",*(arr+i)); }
